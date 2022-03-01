@@ -1,7 +1,7 @@
 @charset "UTF8";
 
 @font-face {
-	font-family: "myFont";
+	font-family: "floral";
 	src: url("../fonts/FloralSuave-Regular.ttf");
 }
 
@@ -53,7 +53,7 @@ h1{
 	/*tipografía propia dada
 	tamaño de letra 40px*/
 	font-size: 40px;
-	font-family: "myFont";
+	font-family: "floral";
 }
 
 h3 {
@@ -465,7 +465,7 @@ footer ul {
 	*/
 	margin: 0px 0px 0px 40px;
 	list-style-type: square;
-
+	color: #565656;
 }
 
 footer ul li a {
@@ -515,6 +515,7 @@ Media Query 2
 	}
 
 	#mainContent {
+		display: block;
 		width: 915px;
 		border-radius: 22px;
 	}
@@ -524,5 +525,12 @@ Media Query 2
 		width: 940px;
 		background-size: contain;
 		border-radius: 22px 22px 0px 0px;
+	}
+
+	aside section {
+		display: inline-block;
+		width: 240px;
+		vertical-align: top;
+
 	}
 }
